@@ -1,7 +1,7 @@
-import '../../../shared/screen_size.dart';
+import '/shared/screen_size.dart';
 import '/shared/widgets/custom_buttom.dart';
 import 'package:flutter/material.dart';
-import '../../home/home_view.dart';
+import '../../main_home/main_home_view.dart';
 import '/logic/login_logic.dart';
 import 'login_data_taking.dart';
 import 'header.dart';
@@ -34,7 +34,7 @@ class LoginViewBody extends StatelessWidget {
                             Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => const HomeView(),
+                                builder: (context) => const MainHomeView(),
                               ),
                             );
                           }
