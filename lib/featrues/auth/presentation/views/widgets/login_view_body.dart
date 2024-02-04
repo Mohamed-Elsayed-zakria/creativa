@@ -1,8 +1,8 @@
-import '../../../core/screen_size.dart';
-import '../../../core/widgets/custom_buttom.dart';
+import '../../../../main_home/presentation/views/main_home_view.dart';
+import '../../../../../core/widgets/custom_buttom.dart';
+import '../../controllers/login_controller.dart';
+import '../../../../../core/screen_size.dart';
 import 'package:flutter/material.dart';
-import '../../main_home/main_home_view.dart';
-import '/logic/login_logic.dart';
 import 'login_data_taking.dart';
 import 'header.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../core/assets.dart';
-import '../../../core/screen_size.dart';
+import '../../../../../core/assets.dart';
+import '../../../../../core/screen_size.dart';
 
 class SplashViewBody extends StatelessWidget {
   const SplashViewBody({super.key});

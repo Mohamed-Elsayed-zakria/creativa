@@ -1,7 +1,7 @@
-import 'package:createva/views/auth/login_view.dart';
+import 'package:createva/featrues/auth/presentation/views/login_view.dart';
 import 'package:flutter/material.dart';
 import 'widgets/splash_view_body.dart';
-import '../../core/colors.dart';
+import '../../../../core/colors.dart';
 
 class SplashView extends StatelessWidget {
   const SplashView({super.key});

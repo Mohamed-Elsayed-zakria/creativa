@@ -1,5 +1,5 @@
-import '../../../logic/login_logic.dart';
-import '../../../core/widgets/custom_form_field.dart';
+import '../../../../../core/widgets/custom_form_field.dart';
+import '../../controllers/login_controller.dart';
 import 'package:flutter/material.dart';
 
 class LoginDataTaking extends StatelessWidget {

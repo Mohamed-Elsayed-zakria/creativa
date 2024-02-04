@@ -1,7 +1,7 @@
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:flutter/material.dart';
 import 'widgets/main_home_view_body.dart';
-import '../../core/colors.dart';
+import '../../../../core/colors.dart';
 
 class MainHomeView extends StatefulWidget {
   const MainHomeView({super.key});

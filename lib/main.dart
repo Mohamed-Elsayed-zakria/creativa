@@ -1,7 +1,7 @@
-import 'package:createva/firebase_options.dart';
+import 'featrues/auth/presentation/views/splash_view.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:createva/firebase_options.dart';
 import 'package:flutter/material.dart';
-import 'views/auth/splash_view.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

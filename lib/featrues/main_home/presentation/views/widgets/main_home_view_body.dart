@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../home/home_view.dart';
+import '../../../../home/presentation/views/home_view.dart';
 
 class MainHomeViewBody extends StatelessWidget {
   final int pageNumber;
