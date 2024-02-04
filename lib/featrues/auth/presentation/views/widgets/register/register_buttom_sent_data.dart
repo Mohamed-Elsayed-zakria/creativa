@@ -14,6 +14,7 @@ class RegisterButtomSentData extends StatelessWidget {
           createNewAccount(
             emailAddress: registerGetEmail.text,
             password: registerGetPassword.text,
+            context: context,
           );
         }
       },

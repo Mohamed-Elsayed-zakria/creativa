@@ -1,4 +1,4 @@
-import 'package:createva/featrues/main_home/presentation/views/main_home_view.dart';
+import 'package:createva/featrues/auth/presentation/views/login_view.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:createva/firebase_options.dart';
 import 'package:flutter/material.dart';
@@ -28,7 +28,7 @@ class Creativa extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const MainHomeView(),
+      home: const LoginView(),
     );
   }
 }

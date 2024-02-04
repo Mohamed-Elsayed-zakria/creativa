@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_iconly/flutter_iconly.dart';
 import '../../../../../core/screen_size.dart';
 import '../../../../../core/colors.dart';
-import '../../../../../core/assets.dart';
+import 'package:flutter/material.dart';
 
 class Header extends StatelessWidget {
   const Header({super.key});
@@ -23,11 +23,12 @@ class Header extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset(
-            Assets.logo,
-            width: size.width * .45,
-            height: size.width * .38,
+          Icon(
+            size: size.width * .25,
+            IconlyBroken.buy,
+            color: AppColors.kSurfaceColor,
           ),
+          const SizedBox(height: 15),
           const Text(
             'Creativa',
             style: TextStyle(
