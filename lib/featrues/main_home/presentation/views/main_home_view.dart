@@ -1,6 +1,6 @@
 import 'package:flutter_iconly/flutter_iconly.dart';
-import 'package:flutter/material.dart';
 import 'widgets/main_home_view_body.dart';
+import 'package:flutter/material.dart';
 import '../../../../core/colors.dart';
 
 class MainHomeView extends StatefulWidget {
@@ -36,7 +36,7 @@ class _MainHomeViewState extends State<MainHomeView> {
           ),
           BottomNavigationBarItem(
             icon: Icon(IconlyBroken.category),
-            label: 'Services',
+            label: 'category',
           ),
           BottomNavigationBarItem(
             icon: Icon(IconlyBroken.buy),

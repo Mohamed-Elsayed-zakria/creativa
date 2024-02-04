@@ -25,7 +25,7 @@ class CartProductItem extends StatelessWidget {
         maxLines: 1,
       ),
       subtitle: Text(
-        cartProduct.description,
+        cartProduct.price.toString(),
         style: const TextStyle(fontSize: 16),
         maxLines: 1,
       ),
@@ -33,11 +33,15 @@ class CartProductItem extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           IconButton(
-            onPressed: () {},
+            onPressed: onPressedAdd,
             icon: const Icon(Icons.add),
           ),
+          const Text(
+            '5',
+            style: TextStyle(fontSize: 16),
+          ),
           IconButton(
-            onPressed: () {},
+            onPressed: onPressedRemove,
             icon: const Icon(Icons.remove),
           ),
         ],
