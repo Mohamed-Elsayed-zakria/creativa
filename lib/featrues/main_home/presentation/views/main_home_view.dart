@@ -15,7 +15,6 @@ class _MainHomeViewState extends State<MainHomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: const Drawer(),
       appBar: AppBar(
         title: const Text('Creativa'),
       ),
@@ -38,10 +37,6 @@ class _MainHomeViewState extends State<MainHomeView> {
           BottomNavigationBarItem(
             icon: Icon(IconlyBroken.category),
             label: 'Services',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(IconlyBroken.notification),
-            label: 'Notice',
           ),
           BottomNavigationBarItem(
             icon: Icon(IconlyBroken.buy),

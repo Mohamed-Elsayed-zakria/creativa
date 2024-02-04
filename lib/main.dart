@@ -1,7 +1,9 @@
-import 'featrues/auth/presentation/views/splash_view.dart';
+import 'package:createva/featrues/auth/presentation/views/login_view.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:createva/firebase_options.dart';
 import 'package:flutter/material.dart';
+import 'core/colors.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,10 +22,14 @@ class Creativa extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Creativa',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(
+          background: AppColors.kSurfaceColor,
+          seedColor: AppColors.kPrimaryColor,
+          surfaceTint: AppColors.kSurfaceColor,
+        ),
         useMaterial3: true,
       ),
-      home: const SplashView(),
+      home: const LoginView(),
     );
   }
 }

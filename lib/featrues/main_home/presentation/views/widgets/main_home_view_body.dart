@@ -16,13 +16,7 @@ class MainHomeViewBody extends StatelessWidget {
         HomeView(),
         Center(
           child: Text(
-            'Services',
-            style: TextStyle(fontSize: 18),
-          ),
-        ),
-        Center(
-          child: Text(
-            'Notice',
+            'category',
             style: TextStyle(fontSize: 18),
           ),
         ),
