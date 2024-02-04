@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '/shared/screen_size.dart';
-import '/shared/colors.dart';
-import '/shared/assets.dart';
+import '../../../core/screen_size.dart';
+import '../../../core/colors.dart';
+import '../../../core/assets.dart';
 
 class Header extends StatelessWidget {
   const Header({super.key});

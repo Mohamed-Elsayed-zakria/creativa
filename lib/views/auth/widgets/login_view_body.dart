@@ -1,5 +1,5 @@
-import '/shared/screen_size.dart';
-import '/shared/widgets/custom_buttom.dart';
+import '../../../core/screen_size.dart';
+import '../../../core/widgets/custom_buttom.dart';
 import 'package:flutter/material.dart';
 import '../../main_home/main_home_view.dart';
 import '/logic/login_logic.dart';

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388928376153",
+    "project_id": "createva-c7055",
+    "storage_bucket": "createva-c7055.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388928376153:android:f633434157950c9725d048",
+        "android_client_info": {
+          "package_name": "com.example.createva"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPKLAZJO5LonQwaISqxvSAapnHaeS8euc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
