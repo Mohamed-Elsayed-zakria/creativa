@@ -4,7 +4,6 @@ import 'package:createva/firebase_options.dart';
 import 'package:flutter/material.dart';
 import 'core/colors.dart';
 
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
