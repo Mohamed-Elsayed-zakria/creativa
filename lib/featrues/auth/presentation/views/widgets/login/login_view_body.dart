@@ -1,10 +1,11 @@
-import '../../../../main_home/presentation/views/main_home_view.dart';
-import '../../../../../core/widgets/custom_buttom.dart';
-import '../../controllers/login_controller.dart';
-import '../../../../../core/screen_size.dart';
+import '../../../../../main_home/presentation/views/main_home_view.dart';
+import '../../../../../../core/widgets/custom_buttom.dart';
+import '../../../controllers/login_controller.dart';
+import '../../../../../../core/screen_size.dart';
 import 'package:flutter/material.dart';
+import '../../register_view.dart';
 import 'login_data_taking.dart';
-import 'header.dart';
+import '../header.dart';
 
 class LoginViewBody extends StatelessWidget {
   const LoginViewBody({super.key});
@@ -44,7 +45,14 @@ class LoginViewBody extends StatelessWidget {
                   ),
                   CustomButton(
                     text: 'Create new account',
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const RegisterView(),
+                        ),
+                      );
+                    },
                   ),
                 ],
               ),
