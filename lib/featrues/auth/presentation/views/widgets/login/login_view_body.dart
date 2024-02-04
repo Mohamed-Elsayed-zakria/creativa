@@ -1,4 +1,3 @@
-import '../../../../../main_home/presentation/views/main_home_view.dart';
 import '../../../../../../core/widgets/custom_buttom.dart';
 import '../../../controllers/login_controller.dart';
 import '../../../../../../core/screen_size.dart';
@@ -32,11 +31,10 @@ class LoginViewBody extends StatelessWidget {
                         text: 'Login',
                         onPressed: () {
                           if (formKeyLogin.currentState!.validate()) {
-                            Navigator.pushReplacement(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => const MainHomeView(),
-                              ),
+                            loginWithAccuont(
+                              context: context,
+                              emailAddress: loginGetEmail.text,
+                              password: loginGetPassword.text,
                             );
                           }
                         },
